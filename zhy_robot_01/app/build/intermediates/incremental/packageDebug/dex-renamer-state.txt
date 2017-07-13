@@ -1,0 +1,7 @@
+#Wed Jun 14 19:19:17 CST 2017
+base.0=E\:\\Sourcecode\\Android\\zhy_robot_01\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_8346ffdd843e0f3de8d79c330b8a36ca6ac79ac2
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=E\:\\Sourcecode\\Android\\zhy_robot_01\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_84e80e4bbf994b9201d3724e509796b73d4a23e5\\classes.dex
+base.1=E\:\\Sourcecode\\Android\\zhy_robot_01\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_84e80e4bbf994b9201d3724e509796b73d4a23e5
+file.0=E\:\\Sourcecode\\Android\\zhy_robot_01\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_8346ffdd843e0f3de8d79c330b8a36ca6ac79ac2\\classes.dex

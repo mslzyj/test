@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\chat_send_msg.xml",
+        "source": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\src\\main\\res\\drawable\\chat_send_msg.xml"
+    },
+    {
+        "merged": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\chat_send_btn.xml",
+        "source": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\src\\main\\res\\drawable\\chat_send_btn.xml"
+    },
+    {
+        "merged": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\chat_from_msg.xml",
+        "source": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\src\\main\\res\\drawable\\chat_from_msg.xml"
+    }
+]

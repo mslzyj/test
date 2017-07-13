@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi\\chatfrom_bg_pressed.png",
+        "source": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\src\\androidTest\\res\\drawable-hdpi\\chatfrom_bg_pressed.png"
+    },
+    {
+        "merged": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi\\chatto_bg_normal.png",
+        "source": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\src\\androidTest\\res\\drawable-hdpi\\chatto_bg_normal.png"
+    },
+    {
+        "merged": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi\\bottom_bar.png",
+        "source": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\src\\androidTest\\res\\drawable-hdpi\\bottom_bar.png"
+    },
+    {
+        "merged": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi\\voice_rcd_btn_pressed.png",
+        "source": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\src\\androidTest\\res\\drawable-hdpi\\voice_rcd_btn_pressed.png"
+    },
+    {
+        "merged": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi\\login_edit_normal.png",
+        "source": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\src\\androidTest\\res\\drawable-hdpi\\login_edit_normal.png"
+    },
+    {
+        "merged": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi\\chatfrom_bg_normal.png",
+        "source": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\src\\androidTest\\res\\drawable-hdpi\\chatfrom_bg_normal.png"
+    },
+    {
+        "merged": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi\\chatto_bg_focused.png",
+        "source": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\src\\androidTest\\res\\drawable-hdpi\\chatto_bg_focused.png"
+    },
+    {
+        "merged": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi\\chatto_bg_pressed.png",
+        "source": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\src\\androidTest\\res\\drawable-hdpi\\chatto_bg_pressed.png"
+    },
+    {
+        "merged": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi\\chatfrom_bg_focused.png",
+        "source": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\src\\androidTest\\res\\drawable-hdpi\\chatfrom_bg_focused.png"
+    },
+    {
+        "merged": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi\\voice_rcd_btn_nor.png",
+        "source": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\src\\androidTest\\res\\drawable-hdpi\\voice_rcd_btn_nor.png"
+    }
+]

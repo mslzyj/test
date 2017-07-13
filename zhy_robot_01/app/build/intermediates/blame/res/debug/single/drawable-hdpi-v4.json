@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\title_bar.jpg",
+        "source": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\src\\main\\res\\drawable-hdpi\\title_bar.jpg"
+    },
+    {
+        "merged": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\chatfrom_bg_pressed.jpg",
+        "source": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\src\\main\\res\\drawable-hdpi\\chatfrom_bg_pressed.jpg"
+    },
+    {
+        "merged": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\chatto_bg_pressed.jpg",
+        "source": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\src\\main\\res\\drawable-hdpi\\chatto_bg_pressed.jpg"
+    },
+    {
+        "merged": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\login_edit_normal.jpg",
+        "source": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\src\\main\\res\\drawable-hdpi\\login_edit_normal.jpg"
+    },
+    {
+        "merged": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\chatto_bg_focused.jpg",
+        "source": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\src\\main\\res\\drawable-hdpi\\chatto_bg_focused.jpg"
+    },
+    {
+        "merged": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\chat_bg_default.jpg",
+        "source": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\src\\main\\res\\drawable-hdpi\\chat_bg_default.jpg"
+    },
+    {
+        "merged": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\voice_rcd_btn_pressed.jpg",
+        "source": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\src\\main\\res\\drawable-hdpi\\voice_rcd_btn_pressed.jpg"
+    },
+    {
+        "merged": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\chatto_bg_normal.jpg",
+        "source": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\src\\main\\res\\drawable-hdpi\\chatto_bg_normal.jpg"
+    },
+    {
+        "merged": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\voice_rcd_btn_nor.jpg",
+        "source": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\src\\main\\res\\drawable-hdpi\\voice_rcd_btn_nor.jpg"
+    },
+    {
+        "merged": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\chatfrom_bg_focused.jpg",
+        "source": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\src\\main\\res\\drawable-hdpi\\chatfrom_bg_focused.jpg"
+    },
+    {
+        "merged": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\aa_icon.jpg",
+        "source": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\src\\main\\res\\drawable-hdpi\\aa_icon.jpg"
+    },
+    {
+        "merged": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bottom_bar.jpg",
+        "source": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\src\\main\\res\\drawable-hdpi\\bottom_bar.jpg"
+    },
+    {
+        "merged": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\chatfrom_bg_normal.jpg",
+        "source": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\src\\main\\res\\drawable-hdpi\\chatfrom_bg_normal.jpg"
+    },
+    {
+        "merged": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\a_icon.jpg",
+        "source": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\src\\main\\res\\drawable-hdpi\\a_icon.jpg"
+    },
+    {
+        "merged": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon.jpg",
+        "source": "E:\\Sourcecode\\Android\\zhy_robot_01\\app\\src\\main\\res\\drawable-hdpi\\icon.jpg"
+    }
+]

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\Sourcecode\Android\zhy_robot_01\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="275db63e05657a37ad7aa73330c8ed01c8f95a2d">
+        <dex dex="E:\Sourcecode\Android\zhy_robot_01\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_84e80e4bbf994b9201d3724e509796b73d4a23e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Android\software\AndroidSDK\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="E:\Sourcecode\Android\zhy_robot_01\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-18.0.0_ae16832a4d0134010adddfc152ee39dc0c744f3e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Sourcecode\Android\zhy_robot_01\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7ec9cfe1b1daea7a3b1b1639bd4a6ec8a4d7bc82">
+        <dex dex="E:\Sourcecode\Android\zhy_robot_01\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_8346ffdd843e0f3de8d79c330b8a36ca6ac79ac2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Android\software\AndroidStudio\gradle\m2repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="E:\Sourcecode\Android\zhy_robot_01\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.2.4_05c7b96f2b2565901242df039f58184781a60513\classes.dex" />
+    </item>
+
+</items>
