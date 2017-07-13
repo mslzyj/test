@@ -1,0 +1,130 @@
+xst -intstyle ise -ifn "D:/cpu/Prep_IO.xst" -ofn "D:/cpu/Prep_IO.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../moxingjitop/ngc -nt timestamp -uc D:/moxingjitop/Prep-IO.ucf -p xc7k160t-ffg676-2L Prep_IO.ngc Prep_IO.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Prep_IO_map.ncd Prep_IO.ngd Prep_IO.pcf 
+par -w -intstyle ise -ol high -mt off Prep_IO_map.ncd Prep_IO.ncd Prep_IO.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Prep_IO.twx Prep_IO.ncd -o Prep_IO.twr Prep_IO.pcf 
+bitgen -intstyle ise -f Prep_IO.ut Prep_IO.ncd 
+xst -intstyle ise -ifn "D:/cpu/Prep_IO.xst" -ofn "D:/cpu/Prep_IO.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../moxingjitop/ngc -nt timestamp -uc D:/moxingjitop/Prep-IO.ucf -p xc7k160t-ffg676-2L Prep_IO.ngc Prep_IO.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Prep_IO_map.ncd Prep_IO.ngd Prep_IO.pcf 
+par -w -intstyle ise -ol high -mt off Prep_IO_map.ncd Prep_IO.ncd Prep_IO.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Prep_IO.twx Prep_IO.ncd -o Prep_IO.twr Prep_IO.pcf 
+bitgen -intstyle ise -f Prep_IO.ut Prep_IO.ncd 
+xst -intstyle ise -ifn "D:/cpu/Prep_IO.xst" -ofn "D:/cpu/Prep_IO.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../moxingjitop/ngc -nt timestamp -uc D:/moxingjitop/Prep-IO.ucf -p xc7k160t-ffg676-2L Prep_IO.ngc Prep_IO.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Prep_IO_map.ncd Prep_IO.ngd Prep_IO.pcf 
+par -w -intstyle ise -ol high -mt off Prep_IO_map.ncd Prep_IO.ncd Prep_IO.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Prep_IO.twx Prep_IO.ncd -o Prep_IO.twr Prep_IO.pcf 
+bitgen -intstyle ise -f Prep_IO.ut Prep_IO.ncd 
+xst -intstyle ise -ifn "D:/cpu/Prep_IO.xst" -ofn "D:/cpu/Prep_IO.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../moxingjitop/ngc -nt timestamp -uc D:/moxingjitop/Prep-IO.ucf -p xc7k160t-ffg676-2L Prep_IO.ngc Prep_IO.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Prep_IO_map.ncd Prep_IO.ngd Prep_IO.pcf 
+par -w -intstyle ise -ol high -mt off Prep_IO_map.ncd Prep_IO.ncd Prep_IO.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Prep_IO.twx Prep_IO.ncd -o Prep_IO.twr Prep_IO.pcf 
+bitgen -intstyle ise -f Prep_IO.ut Prep_IO.ncd 
+xst -intstyle ise -ifn "D:/cpu/Prep_IO.xst" -ofn "D:/cpu/Prep_IO.syr" 
+xst -intstyle ise -ifn "D:/cpu/Prep_IO.xst" -ofn "D:/cpu/Prep_IO.syr" 
+xst -intstyle ise -ifn "D:/cpu/Prep_IO.xst" -ofn "D:/cpu/Prep_IO.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../moxingjitop/ngc -nt timestamp -uc D:/moxingjitop/Prep-IO.ucf -p xc7k160t-ffg676-2L Prep_IO.ngc Prep_IO.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Prep_IO_map.ncd Prep_IO.ngd Prep_IO.pcf 
+par -w -intstyle ise -ol high -mt off Prep_IO_map.ncd Prep_IO.ncd Prep_IO.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Prep_IO.twx Prep_IO.ncd -o Prep_IO.twr Prep_IO.pcf 
+bitgen -intstyle ise -f Prep_IO.ut Prep_IO.ncd 
+xst -intstyle ise -ifn "D:/cpu/Prep_IO.xst" -ofn "D:/cpu/Prep_IO.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../moxingjitop/ngc -nt timestamp -uc D:/moxingjitop/Prep-IO.ucf -p xc7k160t-ffg676-2L Prep_IO.ngc Prep_IO.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Prep_IO_map.ncd Prep_IO.ngd Prep_IO.pcf 
+par -w -intstyle ise -ol high -mt off Prep_IO_map.ncd Prep_IO.ncd Prep_IO.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Prep_IO.twx Prep_IO.ncd -o Prep_IO.twr Prep_IO.pcf 
+bitgen -intstyle ise -f Prep_IO.ut Prep_IO.ncd 
+xst -intstyle ise -ifn "D:/cpu/Prep_IO.xst" -ofn "D:/cpu/Prep_IO.syr" 
+xst -intstyle ise -ifn "D:/cpu/Prep_IO.xst" -ofn "D:/cpu/Prep_IO.syr" 
+xst -intstyle ise -ifn "D:/cpu/Prep_IO.xst" -ofn "D:/cpu/Prep_IO.syr" 
+xst -intstyle ise -ifn "D:/cpu/Prep_IO.xst" -ofn "D:/cpu/Prep_IO.syr" 
+xst -intstyle ise -ifn "D:/cpu/Prep_IO.xst" -ofn "D:/cpu/Prep_IO.syr" 
+xst -intstyle ise -ifn "D:/cpu/Prep_IO.xst" -ofn "D:/cpu/Prep_IO.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../moxingjitop/ngc -nt timestamp -uc D:/moxingjitop/Prep-IO.ucf -p xc7k160t-ffg676-2L Prep_IO.ngc Prep_IO.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Prep_IO_map.ncd Prep_IO.ngd Prep_IO.pcf 
+par -w -intstyle ise -ol high -mt off Prep_IO_map.ncd Prep_IO.ncd Prep_IO.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Prep_IO.twx Prep_IO.ncd -o Prep_IO.twr Prep_IO.pcf 
+bitgen -intstyle ise -f Prep_IO.ut Prep_IO.ncd 
+xst -intstyle ise -ifn "D:/cpu/Prep_IO.xst" -ofn "D:/cpu/Prep_IO.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../moxingjitop/ngc -nt timestamp -uc D:/moxingjitop/Prep-IO.ucf -p xc7k160t-ffg676-2L Prep_IO.ngc Prep_IO.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Prep_IO_map.ncd Prep_IO.ngd Prep_IO.pcf 
+par -w -intstyle ise -ol high -mt off Prep_IO_map.ncd Prep_IO.ncd Prep_IO.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Prep_IO.twx Prep_IO.ncd -o Prep_IO.twr Prep_IO.pcf 
+bitgen -intstyle ise -f Prep_IO.ut Prep_IO.ncd 
+xst -intstyle ise -ifn "D:/cpu/Prep_IO.xst" -ofn "D:/cpu/Prep_IO.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../moxingjitop/ngc -nt timestamp -uc D:/moxingjitop/Prep-IO.ucf -p xc7k160t-ffg676-2L Prep_IO.ngc Prep_IO.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Prep_IO_map.ncd Prep_IO.ngd Prep_IO.pcf 
+par -w -intstyle ise -ol high -mt off Prep_IO_map.ncd Prep_IO.ncd Prep_IO.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Prep_IO.twx Prep_IO.ncd -o Prep_IO.twr Prep_IO.pcf 
+bitgen -intstyle ise -f Prep_IO.ut Prep_IO.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ../moxingjitop/ngc -nt timestamp -uc D:/moxingjitop/Prep-IO.ucf -p xc7k160t-ffg676-2L Prep_IO.ngc Prep_IO.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Prep_IO_map.ncd Prep_IO.ngd Prep_IO.pcf 
+par -w -intstyle ise -ol high -mt off Prep_IO_map.ncd Prep_IO.ncd Prep_IO.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Prep_IO.twx Prep_IO.ncd -o Prep_IO.twr Prep_IO.pcf 
+bitgen -intstyle ise -f Prep_IO.ut Prep_IO.ncd 
+xst -intstyle ise -ifn "D:/cpu/Prep_IO.xst" -ofn "D:/cpu/Prep_IO.syr" 
+xst -intstyle ise -ifn "D:/cpu/Prep_IO.xst" -ofn "D:/cpu/Prep_IO.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../moxingjitop/ngc -nt timestamp -uc D:/moxingjitop/Prep-IO.ucf -p xc7k160t-ffg676-2L Prep_IO.ngc Prep_IO.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Prep_IO_map.ncd Prep_IO.ngd Prep_IO.pcf 
+par -w -intstyle ise -ol high -mt off Prep_IO_map.ncd Prep_IO.ncd Prep_IO.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Prep_IO.twx Prep_IO.ncd -o Prep_IO.twr Prep_IO.pcf 
+bitgen -intstyle ise -f Prep_IO.ut Prep_IO.ncd 
+xst -intstyle ise -ifn "D:/cpu/Prep_IO.xst" -ofn "D:/cpu/Prep_IO.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../moxingjitop/ngc -nt timestamp -uc D:/moxingjitop/Prep-IO.ucf -p xc7k160t-ffg676-2L Prep_IO.ngc Prep_IO.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Prep_IO_map.ncd Prep_IO.ngd Prep_IO.pcf 
+par -w -intstyle ise -ol high -mt off Prep_IO_map.ncd Prep_IO.ncd Prep_IO.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Prep_IO.twx Prep_IO.ncd -o Prep_IO.twr Prep_IO.pcf 
+bitgen -intstyle ise -f Prep_IO.ut Prep_IO.ncd 
+xst -intstyle ise -ifn "D:/cpu/Prep_IO.xst" -ofn "D:/cpu/Prep_IO.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../moxingjitop/ngc -nt timestamp -uc D:/moxingjitop/Prep-IO.ucf -p xc7k160t-ffg676-2L Prep_IO.ngc Prep_IO.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Prep_IO_map.ncd Prep_IO.ngd Prep_IO.pcf 
+par -w -intstyle ise -ol high -mt off Prep_IO_map.ncd Prep_IO.ncd Prep_IO.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Prep_IO.twx Prep_IO.ncd -o Prep_IO.twr Prep_IO.pcf 
+bitgen -intstyle ise -f Prep_IO.ut Prep_IO.ncd 
+xst -intstyle ise -ifn "D:/cpu/Prep_IO.xst" -ofn "D:/cpu/Prep_IO.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../moxingjitop/ngc -nt timestamp -uc D:/moxingjitop/Prep-IO.ucf -p xc7k160t-ffg676-2L Prep_IO.ngc Prep_IO.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Prep_IO_map.ncd Prep_IO.ngd Prep_IO.pcf 
+par -w -intstyle ise -ol high -mt off Prep_IO_map.ncd Prep_IO.ncd Prep_IO.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Prep_IO.twx Prep_IO.ncd -o Prep_IO.twr Prep_IO.pcf 
+bitgen -intstyle ise -f Prep_IO.ut Prep_IO.ncd 
+xst -intstyle ise -ifn "D:/cpu/Prep_IO.xst" -ofn "D:/cpu/Prep_IO.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../moxingjitop/ngc -nt timestamp -uc D:/moxingjitop/Prep-IO.ucf -p xc7k160t-ffg676-2L Prep_IO.ngc Prep_IO.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Prep_IO_map.ncd Prep_IO.ngd Prep_IO.pcf 
+par -w -intstyle ise -ol high -mt off Prep_IO_map.ncd Prep_IO.ncd Prep_IO.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Prep_IO.twx Prep_IO.ncd -o Prep_IO.twr Prep_IO.pcf 
+bitgen -intstyle ise -f Prep_IO.ut Prep_IO.ncd 
+xst -intstyle ise -ifn "D:/cpu/Prep_IO.xst" -ofn "D:/cpu/Prep_IO.syr" 
+xst -intstyle ise -ifn "D:/cpu/Prep_IO.xst" -ofn "D:/cpu/Prep_IO.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../moxingjitop/ngc -nt timestamp -uc D:/moxingjitop/Prep-IO.ucf -p xc7k160t-ffg676-2L Prep_IO.ngc Prep_IO.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Prep_IO_map.ncd Prep_IO.ngd Prep_IO.pcf 
+par -w -intstyle ise -ol high -mt off Prep_IO_map.ncd Prep_IO.ncd Prep_IO.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Prep_IO.twx Prep_IO.ncd -o Prep_IO.twr Prep_IO.pcf 
+bitgen -intstyle ise -f Prep_IO.ut Prep_IO.ncd 
+xst -intstyle ise -ifn "D:/cpu/Prep_IO.xst" -ofn "D:/cpu/Prep_IO.syr" 
+xst -intstyle ise -ifn "D:/cpu/Prep_IO.xst" -ofn "D:/cpu/Prep_IO.syr" 
+xst -intstyle ise -ifn "D:/cpu/Prep_IO.xst" -ofn "D:/cpu/Prep_IO.syr" 
+xst -intstyle ise -ifn "D:/cpu/Prep_IO.xst" -ofn "D:/cpu/Prep_IO.syr" 
+xst -intstyle ise -ifn "D:/cpu/Prep_IO.xst" -ofn "D:/cpu/Prep_IO.syr" 
+xst -intstyle ise -ifn "D:/cpu/Prep_IO.xst" -ofn "D:/cpu/Prep_IO.syr" 
+xst -intstyle ise -ifn "D:/cpu/Prep_IO.xst" -ofn "D:/cpu/Prep_IO.syr" 
+xst -intstyle ise -ifn "D:/cpu/Prep_IO.xst" -ofn "D:/cpu/Prep_IO.syr" 
+xst -intstyle ise -ifn "D:/cpu/Prep_IO.xst" -ofn "D:/cpu/Prep_IO.syr" 
+xst -intstyle ise -ifn "D:/cpu/Prep_IO.xst" -ofn "D:/cpu/Prep_IO.syr" 
+xst -intstyle ise -ifn "D:/cpu/Prep_IO.xst" -ofn "D:/cpu/Prep_IO.syr" 
+xst -intstyle ise -ifn "D:/cpu/Prep_IO.xst" -ofn "D:/cpu/Prep_IO.syr" 
+xst -intstyle ise -ifn "D:/cpu/Prep_IO.xst" -ofn "D:/cpu/Prep_IO.syr" 
+xst -intstyle ise -ifn "D:/cpu/Prep_IO.xst" -ofn "D:/cpu/Prep_IO.syr" 
+xst -intstyle ise -ifn "D:/cpu/Prep_IO.xst" -ofn "D:/cpu/Prep_IO.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../moxingjitop/ngc -nt timestamp -uc D:/moxingjitop/Prep-IO.ucf -p xc7k160t-ffg676-2L Prep_IO.ngc Prep_IO.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Prep_IO_map.ncd Prep_IO.ngd Prep_IO.pcf 
+par -w -intstyle ise -ol high -mt off Prep_IO_map.ncd Prep_IO.ncd Prep_IO.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Prep_IO.twx Prep_IO.ncd -o Prep_IO.twr Prep_IO.pcf 
+bitgen -intstyle ise -f Prep_IO.ut Prep_IO.ncd 
+xst -intstyle ise -ifn "D:/cpu/Prep_IO.xst" -ofn "D:/cpu/Prep_IO.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../moxingjitop/ngc -nt timestamp -uc D:/moxingjitop/Prep-IO.ucf -p xc7k160t-ffg676-2L Prep_IO.ngc Prep_IO.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Prep_IO_map.ncd Prep_IO.ngd Prep_IO.pcf 
+par -w -intstyle ise -ol high -mt off Prep_IO_map.ncd Prep_IO.ncd Prep_IO.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Prep_IO.twx Prep_IO.ncd -o Prep_IO.twr Prep_IO.pcf 
+bitgen -intstyle ise -f Prep_IO.ut Prep_IO.ncd 

@@ -1,0 +1,18 @@
+#Internal package file, do not edit.
+#Wed Jun 14 21:14:03 CST 2017
+1.base=E\:\\Sourcecode\\Android\\taskmanager2\\app\\build\\intermediates\\res\\resources-debug.ap_
+4.file=E\:\\Sourcecode\\Android\\taskmanager2\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\icon.jpg
+1.file=E\:\\Sourcecode\\Android\\taskmanager2\\app\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
+4.set=ANDROID_RESOURCE
+2.base=E\:\\Sourcecode\\Android\\taskmanager2\\app\\build\\intermediates\\res\\resources-debug.ap_
+3.set=ANDROID_RESOURCE
+2.set=ANDROID_RESOURCE
+2.file=E\:\\Sourcecode\\Android\\taskmanager2\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\main.xml
+count=5
+1.set=ANDROID_RESOURCE
+3.base=E\:\\Sourcecode\\Android\\taskmanager2\\app\\build\\intermediates\\res\\resources-debug.ap_
+0.set=ANDROID_RESOURCE
+0.base=E\:\\Sourcecode\\Android\\taskmanager2\\app\\build\\intermediates\\res\\resources-debug.ap_
+3.file=E\:\\Sourcecode\\Android\\taskmanager2\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\list_main.xml
+0.file=E\:\\Sourcecode\\Android\\taskmanager2\\app\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
+4.base=E\:\\Sourcecode\\Android\\taskmanager2\\app\\build\\intermediates\\res\\resources-debug.ap_

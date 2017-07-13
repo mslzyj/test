@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\Sourcecode\Android\taskmanager2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="923f49e29ae0ff1c4a633607e350d6f61b3327a0">
+        <dex dex="E:\Sourcecode\Android\taskmanager2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_71dd8a818723a97821d955877190c3401f3f6b7a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Sourcecode\Android\taskmanager2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="17d64df8337e08c98e0f52a3cc358c89921c32ef">
+        <dex dex="E:\Sourcecode\Android\taskmanager2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_d22739fce16d54ab975e8c3315efb013eddc2307\classes.dex" />
+    </item>
+
+</items>

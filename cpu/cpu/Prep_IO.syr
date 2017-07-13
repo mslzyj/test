@@ -1,0 +1,1099 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: Prep_IO.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Prep_IO.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Prep_IO"
+Output Format                      : NGC
+Target Device                      : xc7k160t-2L-ffg676
+
+---- Source Options
+Top Module Name                    : Prep_IO
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"../moxingjitop/ngc"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "D:\xupt181.s\reg_16x4.v" into library work
+Parsing verilog file "D:\xupt181.s\/./define.v" included at line 2.
+Parsing module <reg_16x4>.
+Analyzing Verilog file "D:\xupt181.s\prog_memory.v" into library work
+Parsing verilog file "D:\xupt181.s\/./define.v" included at line 2.
+Parsing module <prog_memory>.
+Analyzing Verilog file "D:\xupt181.s\prog_counter.v" into library work
+Parsing verilog file "D:\xupt181.s\/./define.v" included at line 2.
+Parsing module <prog_counter>.
+Analyzing Verilog file "D:\xupt181.s\port.v" into library work
+Parsing verilog file "D:\xupt181.s\/./define.v" included at line 2.
+Parsing module <port>.
+Analyzing Verilog file "D:\xupt181.s\control_memory.v" into library work
+Parsing verilog file "D:\xupt181.s\/./define.v" included at line 2.
+Parsing module <control_memory>.
+Analyzing Verilog file "D:\xupt181.s\alu_func.v" into library work
+Parsing verilog file "D:\xupt181.s\/./define.v" included at line 2.
+Parsing module <alu_func>.
+Analyzing Verilog file "D:\xupt181.s\alu_flag.v" into library work
+Parsing verilog file "D:\xupt181.s\/./define.v" included at line 2.
+Parsing module <alu_flag>.
+Analyzing Verilog file "D:\xupt181.s\alu_74181.v" into library work
+Parsing verilog file "D:\xupt181.s\/./define.v" included at line 2.
+Parsing module <alu_74181>.
+Parsing module <TopLevel74181b>.
+Parsing module <Emodule>.
+Parsing module <Dmodule>.
+Parsing module <CLAmodule>.
+Parsing module <Summodule>.
+Analyzing Verilog file "D:\xupt181.s\acc.v" into library work
+Parsing verilog file "D:\xupt181.s\/./define.v" included at line 2.
+Parsing module <acc>.
+Analyzing Verilog file "D:\xupt181.s\xupt181.v" into library work
+Parsing verilog file "D:\xupt181.s\/./define.v" included at line 2.
+Parsing module <xupt181>.
+Analyzing Verilog file "D:\moxingjitop\ngc\P2S_IO.v" into library work
+Parsing module <P2S>.
+Analyzing Verilog file "D:\moxingjitop\ngc\LED_P2S_IO.v" into library work
+Parsing module <LED_P2S>.
+Analyzing Verilog file "D:\moxingjitop\clk_div.v" into library work
+Parsing module <clk_div>.
+Analyzing Verilog file "D:\moxingjitop\Prep-DEMO.v" into library work
+Parsing module <Prep_IO>.
+WARNING:HDLCompiler:751 - "D:\moxingjitop\Prep-DEMO.v" Line 44: Redeclaration of ansi port portE is not allowed
+WARNING:HDLCompiler:751 - "D:\moxingjitop\Prep-DEMO.v" Line 45: Redeclaration of ansi port portF is not allowed
+WARNING:HDLCompiler:489 - "D:\moxingjitop\Prep-DEMO.v" Line 25: Illegal initial value of inout port portE for module Prep_IO ignored
+WARNING:HDLCompiler:489 - "D:\moxingjitop\Prep-DEMO.v" Line 26: Illegal initial value of inout port portF for module Prep_IO ignored
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <Prep_IO>.
+
+Elaborating module <clk_div>.
+WARNING:HDLCompiler:1127 - "D:\moxingjitop\Prep-DEMO.v" Line 105: Assignment to CK ignored, since the identifier is never used
+
+Elaborating module <P2S(DATA_BITS=64,DATA_COUNT_BITS=6)>.
+WARNING:HDLCompiler:1499 - "D:\moxingjitop\ngc\P2S_IO.v" Line 21: Empty module <P2S(DATA_BITS=64,DATA_COUNT_BITS=6)> remains a black box.
+
+Elaborating module <LED_P2S(DATA_BITS=16,DATA_COUNT_BITS=4)>.
+WARNING:HDLCompiler:1499 - "D:\moxingjitop\ngc\LED_P2S_IO.v" Line 21: Empty module <LED_P2S(DATA_BITS=16,DATA_COUNT_BITS=4)> remains a black box.
+
+Elaborating module <xupt181>.
+
+Elaborating module <prog_counter>.
+
+Elaborating module <prog_memory>.
+WARNING:HDLCompiler:634 - "D:\xupt181.s\prog_memory.v" Line 17: Net <mem[4][7]> does not have a driver.
+
+Elaborating module <control_memory>.
+
+Elaborating module <reg_16x4>.
+
+Elaborating module <acc>.
+
+Elaborating module <alu_flag>.
+
+Elaborating module <alu_func>.
+
+Elaborating module <port>.
+
+Elaborating module <alu_74181>.
+
+Elaborating module <TopLevel74181b>.
+
+Elaborating module <Emodule>.
+
+Elaborating module <Dmodule>.
+
+Elaborating module <CLAmodule>.
+
+Elaborating module <Summodule>.
+WARNING:HDLCompiler:634 - "D:\moxingjitop\Prep-DEMO.v" Line 133: Net <rst> does not have a driver.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Prep_IO>.
+    Related source file is "D:\moxingjitop\Prep-DEMO.v".
+INFO:Xst:3210 - "D:\moxingjitop\Prep-DEMO.v" line 105: Output port <Clk_CPU> of the instance <U8> is unconnected or connected to loadless signal.
+WARNING:Xst:653 - Signal <rst> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 16x8-bit Read Only RAM for signal <Seg1>
+    Found 16x8-bit Read Only RAM for signal <Seg2>
+    Found 16x8-bit Read Only RAM for signal <Seg7>
+    Summary:
+	inferred   3 RAM(s).
+Unit <Prep_IO> synthesized.
+
+Synthesizing Unit <clk_div>.
+    Related source file is "D:\moxingjitop\clk_div.v".
+    Found 32-bit register for signal <clkdiv>.
+    Found 32-bit adder for signal <clkdiv[31]_GND_2_o_add_0_OUT> created at line 32.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  32 D-type flip-flop(s).
+Unit <clk_div> synthesized.
+
+Synthesizing Unit <xupt181>.
+    Related source file is "D:\xupt181.s\xupt181.v".
+INFO:Xst:3210 - "D:\xupt181.s\xupt181.v" line 155: Output port <X> of the instance <u_alu_74181> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\xupt181.s\xupt181.v" line 155: Output port <Y> of the instance <u_alu_74181> is unconnected or connected to loadless signal.
+    Found 1-bit 4-to-1 multiplexer for signal <pc_load> created at line 20.
+    Summary:
+	inferred   6 Multiplexer(s).
+Unit <xupt181> synthesized.
+
+Synthesizing Unit <prog_counter>.
+    Related source file is "D:\xupt181.s\prog_counter.v".
+    Found 8-bit register for signal <pc>.
+    Found 2-bit register for signal <upc>.
+    Found 2-bit adder for signal <upc[1]_GND_6_o_add_0_OUT> created at line 27.
+    Found 8-bit adder for signal <pc[7]_GND_6_o_add_3_OUT> created at line 37.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  10 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <prog_counter> synthesized.
+
+Synthesizing Unit <prog_memory>.
+    Related source file is "D:\xupt181.s\prog_memory.v".
+WARNING:Xst:653 - Signal <mem<4>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<5>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<6>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<7>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<8>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<9>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<10>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<11>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<12>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<13>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<14>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<15>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<16>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<17>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<18>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<19>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<20>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<21>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<22>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<23>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<24>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<25>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<26>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<27>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<28>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<29>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<30>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<31>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<32>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<33>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<34>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<35>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<36>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<37>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<38>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<39>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<40>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<41>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<42>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<43>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<44>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<45>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<46>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<47>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<48>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<49>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<50>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<51>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<52>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<53>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<54>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<55>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<56>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<57>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<58>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<59>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<60>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<61>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<62>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<63>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<64>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<65>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<66>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<67>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<68>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<69>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<70>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<71>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<72>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<73>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<74>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<75>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<76>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<77>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<78>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<79>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<80>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<81>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<82>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<83>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<84>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<85>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<86>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<87>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<88>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<89>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<90>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<91>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<92>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<93>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<94>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<95>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<96>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<97>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<98>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<99>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<100>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<101>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<102>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<103>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<104>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<105>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<106>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<107>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<108>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<109>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<110>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<111>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<112>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<113>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<114>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<115>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<116>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<117>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<118>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<119>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<120>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<121>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<122>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<123>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<124>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<125>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<126>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<127>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<128>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<129>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<130>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<131>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<132>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<133>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<134>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<135>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<136>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<137>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<138>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<139>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<140>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<141>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<142>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<143>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<144>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<145>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<146>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<147>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<148>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<149>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<150>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<151>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<152>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<153>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<154>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<155>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<156>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<157>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<158>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<159>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<160>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<161>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<162>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<163>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<164>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<165>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<166>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<167>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<168>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<169>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<170>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<171>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<172>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<173>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<174>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<175>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<176>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<177>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<178>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<179>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<180>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<181>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<182>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<183>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<184>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<185>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<186>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<187>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<188>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<189>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<190>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<191>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<192>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<193>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<194>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<195>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<196>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<197>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<198>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<199>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<200>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<201>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<202>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<203>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<204>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<205>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<206>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<207>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<208>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<209>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<210>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<211>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<212>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<213>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<214>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<215>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<216>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<217>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<218>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<219>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<220>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<221>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<222>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<223>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<224>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<225>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<226>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<227>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<228>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<229>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<230>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<231>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<232>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<233>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<234>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<235>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<236>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<237>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<238>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<239>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<240>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<241>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<242>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<243>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<244>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<245>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<246>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<247>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<248>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<249>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<250>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<251>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<252>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<253>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<254>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mem<255>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 8-bit register for signal <inst>.
+    Found 256x8-bit Read Only RAM for signal <addr[7]_mem[255][7]_wide_mux_1_OUT>
+    Summary:
+	inferred   1 RAM(s).
+	inferred   8 D-type flip-flop(s).
+Unit <prog_memory> synthesized.
+
+Synthesizing Unit <control_memory>.
+    Related source file is "D:\xupt181.s\control_memory.v".
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <rst> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 64x16-bit Read Only RAM for signal <f>
+    Summary:
+	inferred   1 RAM(s).
+Unit <control_memory> synthesized.
+
+Synthesizing Unit <reg_16x4>.
+    Related source file is "D:\xupt181.s\reg_16x4.v".
+    Found 64-bit register for signal <n0023[63:0]>.
+    Found 4-bit 16-to-1 multiplexer for signal <dato> created at line 48.
+    Summary:
+	inferred  64 D-type flip-flop(s).
+	inferred  17 Multiplexer(s).
+Unit <reg_16x4> synthesized.
+
+Synthesizing Unit <acc>.
+    Related source file is "D:\xupt181.s\acc.v".
+    Found 4-bit register for signal <acco>.
+    Found 4-bit register for signal <accs>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <acc> synthesized.
+
+Synthesizing Unit <alu_flag>.
+    Related source file is "D:\xupt181.s\alu_flag.v".
+    Found 2-bit register for signal <flago>.
+    Found 2-bit register for signal <flags>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <alu_flag> synthesized.
+
+Synthesizing Unit <alu_func>.
+    Related source file is "D:\xupt181.s\alu_func.v".
+    Found 4-bit register for signal <funco>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <alu_func> synthesized.
+
+Synthesizing Unit <port>.
+    Related source file is "D:\xupt181.s\port.v".
+    Found 4-bit register for signal <dir4>.
+    Found 4-bit register for signal <dir5>.
+    Found 4-bit register for signal <dir6>.
+    Found 4-bit register for signal <port7_o>.
+    Found 4-bit register for signal <port8_o>.
+    Found 4-bit register for signal <port9_o>.
+    Found 4-bit register for signal <porta_o>.
+    Found 4-bit register for signal <dir3>.
+    Found 1-bit tristate buffer for signal <port7<0>> created at line 63
+    Found 1-bit tristate buffer for signal <port7<1>> created at line 64
+    Found 1-bit tristate buffer for signal <port7<2>> created at line 65
+    Found 1-bit tristate buffer for signal <port7<3>> created at line 66
+    Found 1-bit tristate buffer for signal <port8<0>> created at line 69
+    Found 1-bit tristate buffer for signal <port8<1>> created at line 70
+    Found 1-bit tristate buffer for signal <port8<2>> created at line 71
+    Found 1-bit tristate buffer for signal <port8<3>> created at line 72
+    Found 1-bit tristate buffer for signal <port9<0>> created at line 75
+    Found 1-bit tristate buffer for signal <port9<1>> created at line 76
+    Found 1-bit tristate buffer for signal <port9<2>> created at line 77
+    Found 1-bit tristate buffer for signal <port9<3>> created at line 78
+    Found 1-bit tristate buffer for signal <porta<0>> created at line 81
+    Found 1-bit tristate buffer for signal <porta<1>> created at line 82
+    Found 1-bit tristate buffer for signal <porta<2>> created at line 83
+    Found 1-bit tristate buffer for signal <porta<3>> created at line 84
+    Summary:
+	inferred  32 D-type flip-flop(s).
+	inferred   8 Multiplexer(s).
+	inferred  16 Tristate(s).
+Unit <port> synthesized.
+
+Synthesizing Unit <alu_74181>.
+    Related source file is "D:\xupt181.s\alu_74181.v".
+    Summary:
+	no macro.
+Unit <alu_74181> synthesized.
+
+Synthesizing Unit <TopLevel74181b>.
+    Related source file is "D:\xupt181.s\alu_74181.v".
+    Summary:
+	no macro.
+Unit <TopLevel74181b> synthesized.
+
+Synthesizing Unit <Emodule>.
+    Related source file is "D:\xupt181.s\alu_74181.v".
+WARNING:Xst:647 - Input <S<1:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <Emodule> synthesized.
+
+Synthesizing Unit <Dmodule>.
+    Related source file is "D:\xupt181.s\alu_74181.v".
+WARNING:Xst:647 - Input <S<3:2>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <Dmodule> synthesized.
+
+Synthesizing Unit <CLAmodule>.
+    Related source file is "D:\xupt181.s\alu_74181.v".
+    Summary:
+	no macro.
+Unit <CLAmodule> synthesized.
+
+Synthesizing Unit <Summodule>.
+    Related source file is "D:\xupt181.s\alu_74181.v".
+    Summary:
+Unit <Summodule> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 5
+ 16x8-bit single-port Read Only RAM                    : 3
+ 256x8-bit single-port Read Only RAM                   : 1
+ 64x16-bit single-port Read Only RAM                   : 1
+# Adders/Subtractors                                   : 3
+ 2-bit adder                                           : 1
+ 32-bit adder                                          : 1
+ 8-bit adder                                           : 1
+# Registers                                            : 18
+ 2-bit register                                        : 3
+ 32-bit register                                       : 1
+ 4-bit register                                        : 11
+ 64-bit register                                       : 1
+ 8-bit register                                        : 2
+# Multiplexers                                         : 32
+ 1-bit 2-to-1 multiplexer                              : 1
+ 1-bit 4-to-1 multiplexer                              : 1
+ 4-bit 16-to-1 multiplexer                             : 1
+ 4-bit 2-to-1 multiplexer                              : 28
+ 8-bit 2-to-1 multiplexer                              : 1
+# Tristates                                            : 16
+ 1-bit tristate buffer                                 : 16
+# Xors                                                 : 2
+ 4-bit xor2                                            : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <../moxingjitop/ngc/P2S.ngc>.
+Reading core <../moxingjitop/ngc/LED_P2S.ngc>.
+Loading core <P2S> for timing and area information for instance <P7SEG>.
+Loading core <LED_P2S> for timing and area information for instance <PLED>.
+
+Synthesizing (advanced) Unit <Prep_IO>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_Seg1> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <SW<15:12>>     |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <Seg1>          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_Seg2> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <SW<11:8>>      |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <Seg2>          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_Seg7> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <portE>         |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <Seg7>          |          |
+    -----------------------------------------------------------------------
+Unit <Prep_IO> synthesized (advanced).
+
+Synthesizing (advanced) Unit <clk_div>.
+The following registers are absorbed into counter <clkdiv>: 1 register on signal <clkdiv>.
+Unit <clk_div> synthesized (advanced).
+
+Synthesizing (advanced) Unit <control_memory>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_f> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 64-word x 16-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <(op,cnt)>      |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <f>             |          |
+    -----------------------------------------------------------------------
+Unit <control_memory> synthesized (advanced).
+
+Synthesizing (advanced) Unit <prog_counter>.
+The following registers are absorbed into counter <pc>: 1 register on signal <pc>.
+The following registers are absorbed into counter <upc>: 1 register on signal <upc>.
+Unit <prog_counter> synthesized (advanced).
+
+Synthesizing (advanced) Unit <prog_memory>.
+INFO:Xst:3226 - The RAM <Mram_addr[7]_mem[255][7]_wide_mux_1_OUT> will be implemented as a BLOCK RAM, absorbing the following register(s): <inst>
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     enA            | connected to internal node          | high     |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <addr>          |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <inst>          |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <prog_memory> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 5
+ 16x8-bit single-port distributed Read Only RAM        : 3
+ 256x8-bit single-port block Read Only RAM             : 1
+ 64x16-bit single-port distributed Read Only RAM       : 1
+# Counters                                             : 3
+ 2-bit up counter                                      : 1
+ 32-bit up counter                                     : 1
+ 8-bit up counter                                      : 1
+# Registers                                            : 112
+ Flip-Flops                                            : 112
+# Multiplexers                                         : 81
+ 1-bit 16-to-1 multiplexer                             : 4
+ 1-bit 2-to-1 multiplexer                              : 64
+ 1-bit 4-to-1 multiplexer                              : 1
+ 4-bit 2-to-1 multiplexer                              : 12
+# Xors                                                 : 2
+ 4-bit xor2                                            : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <U8/clkdiv_21> of sequential type is unconnected in block <Prep_IO>.
+WARNING:Xst:2677 - Node <U8/clkdiv_22> of sequential type is unconnected in block <Prep_IO>.
+WARNING:Xst:2677 - Node <U8/clkdiv_23> of sequential type is unconnected in block <Prep_IO>.
+WARNING:Xst:2677 - Node <U8/clkdiv_24> of sequential type is unconnected in block <Prep_IO>.
+WARNING:Xst:2677 - Node <U8/clkdiv_25> of sequential type is unconnected in block <Prep_IO>.
+WARNING:Xst:2677 - Node <U8/clkdiv_26> of sequential type is unconnected in block <Prep_IO>.
+WARNING:Xst:2677 - Node <U8/clkdiv_27> of sequential type is unconnected in block <Prep_IO>.
+WARNING:Xst:2677 - Node <U8/clkdiv_28> of sequential type is unconnected in block <Prep_IO>.
+WARNING:Xst:2677 - Node <U8/clkdiv_29> of sequential type is unconnected in block <Prep_IO>.
+WARNING:Xst:2677 - Node <U8/clkdiv_30> of sequential type is unconnected in block <Prep_IO>.
+WARNING:Xst:2677 - Node <U8/clkdiv_31> of sequential type is unconnected in block <Prep_IO>.
+WARNING:Xst:2042 - Unit Prep_IO: 4 internal tristates are replaced by logic (pull-up yes): portA<0>, portA<1>, portA<2>, portA<3>.
+WARNING:Xst:2040 - Unit Prep_IO: 4 multi-source signals are replaced by logic (pull-up yes): portE<0>_MLTSRCEDGE, portE<1>_MLTSRCEDGE, portE<2>_MLTSRCEDGE, portE<3>_MLTSRCEDGE.
+
+Optimizing unit <acc> ...
+
+Optimizing unit <Prep_IO> ...
+
+Optimizing unit <reg_16x4> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Prep_IO, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 143
+ Flip-Flops                                            : 143
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Prep_IO.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 420
+#      GND                         : 1
+#      INV                         : 16
+#      LUT1                        : 20
+#      LUT2                        : 14
+#      LUT3                        : 14
+#      LUT4                        : 34
+#      LUT5                        : 15
+#      LUT6                        : 230
+#      MUXCY                       : 27
+#      MUXF7                       : 13
+#      MUXF8                       : 4
+#      VCC                         : 3
+#      XORCY                       : 29
+# FlipFlops/Latches                : 245
+#      FD                          : 107
+#      FDC                         : 14
+#      FDCE                        : 4
+#      FDE                         : 120
+# RAMS                             : 1
+#      RAMB18E1                    : 1
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 25
+#      IBUF                        : 8
+#      IOBUF                       : 8
+#      OBUF                        : 9
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7k160tffg676-2l 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             245  out of  202800     0%  
+ Number of Slice LUTs:                  343  out of  101400     0%  
+    Number used as Logic:               343  out of  101400     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    371
+   Number with an unused Flip Flop:     126  out of    371    33%  
+   Number with an unused LUT:            28  out of    371     7%  
+   Number of fully used LUT-FF pairs:   217  out of    371    58%  
+   Number of unique control sets:        21
+
+IO Utilization: 
+ Number of IOs:                          26
+ Number of bonded IOBs:                  26  out of    400     6%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:                1  out of    325     0%  
+    Number using Block RAM only:          1
+ Number of BUFG/BUFGCTRLs:                2  out of     32     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk_100mhz                         | BUFGP                  | 123   |
+U8/clkdiv_20                       | BUFG                   | 123   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+----------------------------------------------------------------------+-------+
+Control Signal                     | Buffer(FF name)                                                      | Load  |
+-----------------------------------+----------------------------------------------------------------------+-------+
+rst(XST_GND:G)                     | NONE(u_xupt181_u_prog_memory/Mram_addr[7]_mem[255][7]_wide_mux_1_OUT)| 2     |
+-----------------------------------+----------------------------------------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 5.136ns (Maximum Frequency: 194.723MHz)
+   Minimum input arrival time before clock: 3.145ns
+   Maximum output required time after clock: 1.145ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_100mhz'
+  Clock period: 2.054ns (frequency: 486.841MHz)
+  Total number of paths / destination ports: 1698 / 127
+-------------------------------------------------------------------------
+Delay:               2.054ns (Levels of Logic = 4)
+  Source:            P7SEG/shift_count_2 (FF)
+  Destination:       P7SEG/buffer_0 (FF)
+  Source Clock:      clk_100mhz rising
+  Destination Clock: clk_100mhz rising
+
+  Data Path: P7SEG/shift_count_2 to P7SEG/buffer_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              4   0.236   0.620  shift_count_2 (shift_count<2>)
+     LUT5:I0->O            1   0.043   0.405  _n0075_inv31 (_n0075_inv_bdd3)
+     LUT6:I4->O            1   0.043   0.000  _n0103_inv12_G (N26)
+     MUXF7:I1->O          64   0.178   0.486  _n0103_inv12 (_n0103_inv)
+     LUT6:I5->O            1   0.043   0.000  buffer_0_rstpot (buffer_0_rstpot)
+     FD:D                     -0.000          buffer_0
+    ----------------------------------------
+    Total                      2.054ns (0.543ns logic, 1.511ns route)
+                                       (26.4% logic, 73.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'U8/clkdiv_20'
+  Clock period: 5.136ns (frequency: 194.723MHz)
+  Total number of paths / destination ports: 5970 / 251
+-------------------------------------------------------------------------
+Delay:               5.136ns (Levels of Logic = 7)
+  Source:            u_xupt181_u_prog_memory/Mram_addr[7]_mem[255][7]_wide_mux_1_OUT (RAM)
+  Destination:       u_xupt181/u_alu_flag/flags_1 (FF)
+  Source Clock:      U8/clkdiv_20 rising
+  Destination Clock: U8/clkdiv_20 rising
+
+  Data Path: u_xupt181_u_prog_memory/Mram_addr[7]_mem[255][7]_wide_mux_1_OUT to u_xupt181/u_alu_flag/flags_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAMB18E1:CLKARDCLK->DOADO6   16   1.800   0.605  u_xupt181_u_prog_memory/Mram_addr[7]_mem[255][7]_wide_mux_1_OUT (u_xupt181_inst<6>)
+     LUT4:I0->O           13   0.043   0.418  u_xupt181_u_control_memory/Mram_f81 (u_xupt181/f<8>)
+     LUT6:I5->O            1   0.043   0.405  u_xupt181/Mmux_alu_b210_SW1 (N34)
+     LUT6:I4->O            2   0.043   0.355  u_xupt181/Mmux_alu_b210 (u_xupt181/alu_b<1>)
+     LUT6:I5->O            5   0.043   0.545  u_xupt181/u_alu_74181/Ckt74181b/Emod1/E<1>1 (u_xupt181/u_alu_74181/Ckt74181b/E<1>)
+     LUT6:I2->O            1   0.043   0.350  u_xupt181/u_alu_74181/Ckt74181b/Summod4/C[3]_M_or_1_OUT<2>1 (u_xupt181/u_alu_74181/Ckt74181b/Summod4/C[3]_M_or_1_OUT<2>)
+     LUT6:I5->O            2   0.043   0.355  u_xupt181/u_alu_74181/Ckt74181b/Summod4/Mxor_F_2_xo<0>1 (u_xupt181/alu_f<2>)
+     LUT6:I5->O            1   0.043   0.000  u_xupt181/u_alu_74181/Ckt74181b/Summod4/out1 (u_xupt181/alu_aeb)
+     FDE:D                    -0.000          u_xupt181/u_alu_flag/flags_1
+    ----------------------------------------
+    Total                      5.136ns (2.101ns logic, 3.034ns route)
+                                       (40.9% logic, 59.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'U8/clkdiv_20'
+  Total number of paths / destination ports: 129 / 6
+-------------------------------------------------------------------------
+Offset:              3.145ns (Levels of Logic = 8)
+  Source:            portF<0> (PAD)
+  Destination:       u_xupt181/u_alu_flag/flags_1 (FF)
+  Destination Clock: U8/clkdiv_20 rising
+
+  Data Path: portF<0> to u_xupt181/u_alu_flag/flags_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IOBUF:IO->O           2   0.000   0.618  portF_0_IOBUF (N16)
+     LUT6:I0->O            1   0.043   0.350  u_xupt181/Mmux_alu_b14_SW1 (N29)
+     LUT5:I4->O            1   0.043   0.350  u_xupt181/Mmux_alu_b14 (u_xupt181/Mmux_alu_b13)
+     LUT6:I5->O            4   0.043   0.630  u_xupt181/Mmux_alu_b15 (u_xupt181/alu_b<0>)
+     LUT6:I0->O            1   0.043   0.000  u_xupt181/u_alu_74181/Ckt74181b/Summod4/C[3]_M_or_1_OUT<3>_SW0_G (N47)
+     MUXF7:I1->O           2   0.178   0.355  u_xupt181/u_alu_74181/Ckt74181b/Summod4/C[3]_M_or_1_OUT<3>_SW0 (N7)
+     LUT6:I5->O            1   0.043   0.405  u_xupt181/u_alu_74181/Ckt74181b/Summod4/C[3]_M_or_1_OUT<3> (u_xupt181/u_alu_74181/Ckt74181b/Summod4/C[3]_M_or_1_OUT<3>)
+     LUT6:I4->O            1   0.043   0.000  u_xupt181/u_alu_74181/Ckt74181b/Summod4/out1 (u_xupt181/alu_aeb)
+     FDE:D                    -0.000          u_xupt181/u_alu_flag/flags_1
+    ----------------------------------------
+    Total                      3.145ns (0.436ns logic, 2.709ns route)
+                                       (13.9% logic, 86.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk_100mhz'
+  Total number of paths / destination ports: 96 / 33
+-------------------------------------------------------------------------
+Offset:              1.271ns (Levels of Logic = 4)
+  Source:            portE<1> (PAD)
+  Destination:       P7SEG/buffer_1 (FF)
+  Destination Clock: clk_100mhz rising
+
+  Data Path: portE<1> to P7SEG/buffer_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IOBUF:IO->O          10   0.000   0.572  portE_1_IOBUF (N11)
+     LUT4:I0->O            1   0.043   0.613  Mram_Seg7111 (Mram_Seg71)
+     begin scope: 'P7SEG:P_Data<1>'
+     LUT6:I0->O            1   0.043   0.000  buffer_1_rstpot (buffer_1_rstpot)
+     FD:D                     -0.000          buffer_1
+    ----------------------------------------
+    Total                      1.271ns (0.086ns logic, 1.185ns route)
+                                       (6.8% logic, 93.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'U8/clkdiv_20'
+  Total number of paths / destination ports: 32 / 8
+-------------------------------------------------------------------------
+Offset:              1.145ns (Levels of Logic = 2)
+  Source:            u_xupt181/u_port/dir5_3 (FF)
+  Destination:       portE<3> (PAD)
+  Source Clock:      U8/clkdiv_20 rising
+
+  Data Path: u_xupt181/u_port/dir5_3 to portE<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.236   0.527  u_xupt181/u_port/dir5_3 (u_xupt181/u_port/dir5_3)
+     LUT4:I0->O            1   0.043   0.339  portE<3>_MLTSRCEDGELogicTrst1 (portE<3>_MLTSRCEDGE)
+     IOBUF:I->IO               0.000          portE_3_IOBUF (portE<3>)
+    ----------------------------------------
+    Total                      1.145ns (0.279ns logic, 0.866ns route)
+                                       (24.4% logic, 75.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_100mhz'
+  Total number of paths / destination ports: 6 / 6
+-------------------------------------------------------------------------
+Offset:              0.625ns (Levels of Logic = 2)
+  Source:            P7SEG/s_clk (FF)
+  Destination:       seg_clk (PAD)
+  Source Clock:      clk_100mhz rising
+
+  Data Path: P7SEG/s_clk to seg_clk
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             10   0.236   0.389  s_clk (s_clk)
+     end scope: 'P7SEG:s_clk'
+     OBUF:I->O                 0.000          seg_clk_OBUF (seg_clk)
+    ----------------------------------------
+    Total                      0.625ns (0.236ns logic, 0.389ns route)
+                                       (37.7% logic, 62.3% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock U8/clkdiv_20
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+U8/clkdiv_20   |    5.136|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clk_100mhz
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+U8/clkdiv_20   |    1.345|         |         |         |
+clk_100mhz     |    2.054|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 10.39 secs
+ 
+--> 
+
+Total memory usage is 449952 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  279 (   0 filtered)
+Number of infos    :    8 (   0 filtered)
+

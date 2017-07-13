@@ -1,0 +1,56 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Sourcecode\Android\taskmanager2\app\src\main\AndroidManifest.xml:2:1-17:12
+	package
+		ADDED from E:\Sourcecode\Android\taskmanager2\app\src\main\AndroidManifest.xml:3:2-38
+		INJECTED from E:\Sourcecode\Android\taskmanager2\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Sourcecode\Android\taskmanager2\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\Sourcecode\Android\taskmanager2\app\src\main\AndroidManifest.xml:4:2-27
+		INJECTED from E:\Sourcecode\Android\taskmanager2\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Sourcecode\Android\taskmanager2\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from E:\Sourcecode\Android\taskmanager2\app\src\main\AndroidManifest.xml:3:39-62
+		INJECTED from E:\Sourcecode\Android\taskmanager2\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Sourcecode\Android\taskmanager2\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Sourcecode\Android\taskmanager2\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from E:\Sourcecode\Android\taskmanager2\app\src\main\AndroidManifest.xml:5:2-14:16
+	android:label
+		ADDED from E:\Sourcecode\Android\taskmanager2\app\src\main\AndroidManifest.xml:5:45-77
+	android:icon
+		ADDED from E:\Sourcecode\Android\taskmanager2\app\src\main\AndroidManifest.xml:5:15-44
+activity#com.xmobileapp.taskmanager.TaskManager
+ADDED from E:\Sourcecode\Android\taskmanager2\app\src\main\AndroidManifest.xml:6:3-13:14
+	android:label
+		ADDED from E:\Sourcecode\Android\taskmanager2\app\src\main\AndroidManifest.xml:6:41-73
+	android:launchMode
+		ADDED from E:\Sourcecode\Android\taskmanager2\app\src\main\AndroidManifest.xml:8:4-35
+	android:configChanges
+		ADDED from E:\Sourcecode\Android\taskmanager2\app\src\main\AndroidManifest.xml:7:4-54
+	android:name
+		ADDED from E:\Sourcecode\Android\taskmanager2\app\src\main\AndroidManifest.xml:6:13-40
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\Sourcecode\Android\taskmanager2\app\src\main\AndroidManifest.xml:9:4-12:20
+action#android.intent.action.MAIN
+ADDED from E:\Sourcecode\Android\taskmanager2\app\src\main\AndroidManifest.xml:10:5-57
+	android:name
+		ADDED from E:\Sourcecode\Android\taskmanager2\app\src\main\AndroidManifest.xml:10:13-54
+category#android.intent.category.LAUNCHER
+ADDED from E:\Sourcecode\Android\taskmanager2\app\src\main\AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from E:\Sourcecode\Android\taskmanager2\app\src\main\AndroidManifest.xml:11:15-62
+uses-sdk
+ADDED from E:\Sourcecode\Android\taskmanager2\app\src\main\AndroidManifest.xml:15:2-40
+	android:targetSdkVersion
+		INJECTED from E:\Sourcecode\Android\taskmanager2\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Sourcecode\Android\taskmanager2\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from E:\Sourcecode\Android\taskmanager2\app\src\main\AndroidManifest.xml:15:12-37
+		INJECTED from E:\Sourcecode\Android\taskmanager2\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Sourcecode\Android\taskmanager2\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.RESTART_PACKAGES
+ADDED from E:\Sourcecode\Android\taskmanager2\app\src\main\AndroidManifest.xml:16:2-72
+	android:name
+		ADDED from E:\Sourcecode\Android\taskmanager2\app\src\main\AndroidManifest.xml:16:19-69

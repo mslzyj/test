@@ -1,0 +1,86 @@
+D:/test/xupt181.s/alu_func.v {1 {vlog -work work -vopt D:/test/xupt181.s/alu_func.v
+Model Technology ModelSim SE vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module alu_func
+
+Top level modules:
+	alu_func
+
+} {} {}} D:/test/xupt181.s/prog_memory.v {1 {vlog -work work -vopt D:/test/xupt181.s/prog_memory.v
+Model Technology ModelSim SE vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module prog_memory
+
+Top level modules:
+	prog_memory
+
+} {} {}} D:/test/xupt181.s/reg_16x4.v {1 {vlog -work work -vopt D:/test/xupt181.s/reg_16x4.v
+Model Technology ModelSim SE vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module reg_16x4
+
+Top level modules:
+	reg_16x4
+
+} {} {}} D:/test/xupt181.s/control_memory.v {1 {vlog -work work -vopt D:/test/xupt181.s/control_memory.v
+Model Technology ModelSim SE vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module control_memory
+
+Top level modules:
+	control_memory
+
+} {} {}} D:/test/xupt181.s/alu_flag.v {1 {vlog -work work -vopt D:/test/xupt181.s/alu_flag.v
+Model Technology ModelSim SE vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module alu_flag
+
+Top level modules:
+	alu_flag
+
+} {} {}} D:/test/xupt181.s/port.v {1 {vlog -work work -vopt D:/test/xupt181.s/port.v
+Model Technology ModelSim SE vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module port
+
+Top level modules:
+	port
+
+} {} {}} D:/test/xupt181.s/alu_74181.v {1 {vlog -work work -vopt D:/test/xupt181.s/alu_74181.v
+Model Technology ModelSim SE vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module alu_74181
+-- Compiling module TopLevel74181b
+-- Compiling module Emodule
+-- Compiling module Dmodule
+-- Compiling module CLAmodule
+-- Compiling module Summodule
+
+Top level modules:
+	alu_74181
+
+} {} {}} D:/test/xupt181.s/tb.v {1 {vlog -work work -vopt D:/test/xupt181.s/tb.v
+Model Technology ModelSim SE vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module test
+
+Top level modules:
+	test
+
+} {} {}} D:/test/xupt181.s/acc.v {1 {vlog -work work -vopt D:/test/xupt181.s/acc.v
+Model Technology ModelSim SE vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module acc
+
+Top level modules:
+	acc
+
+} {} {}} D:/test/xupt181.s/prog_counter.v {1 {vlog -work work -vopt D:/test/xupt181.s/prog_counter.v
+Model Technology ModelSim SE vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module prog_counter
+
+Top level modules:
+	prog_counter
+
+} {} {}} D:/test/xupt181.s/xupt181.v {1 {vlog -work work -vopt D:/test/xupt181.s/xupt181.v
+Model Technology ModelSim SE vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module xupt181
+
+Top level modules:
+	xupt181
+
+} {} {}} D:/test/xupt181.s/define.v {1 {vlog -work work -vopt D:/test/xupt181.s/define.v
+Model Technology ModelSim SE vlog 10.2c Compiler 2013.07 Jul 18 2013
+
+} {} {}}

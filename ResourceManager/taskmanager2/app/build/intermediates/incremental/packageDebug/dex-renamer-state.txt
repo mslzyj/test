@@ -1,0 +1,7 @@
+#Wed Jun 14 21:15:12 CST 2017
+base.0=E\:\\Sourcecode\\Android\\taskmanager2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_71dd8a818723a97821d955877190c3401f3f6b7a
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=E\:\\Sourcecode\\Android\\taskmanager2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_d22739fce16d54ab975e8c3315efb013eddc2307\\classes.dex
+base.1=E\:\\Sourcecode\\Android\\taskmanager2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_d22739fce16d54ab975e8c3315efb013eddc2307
+file.0=E\:\\Sourcecode\\Android\\taskmanager2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_71dd8a818723a97821d955877190c3401f3f6b7a\\classes.dex
